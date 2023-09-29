@@ -1,0 +1,24 @@
+body{
+    background-image: url(https://img.freepik.com/vecteurs-libre/fond-neigeux-noel_1048-9078.jpg);
+    text-align: center;
+    color: aqua;
+    font-size: 60px;
+    overflow: hidden;
+    animation: crawl 10s linear infinite;
+    transform: perspective(300px) rotateX(25deg)
+}
+
+.becode{
+    width: 300px;
+    height: 300px ;
+    
+}
+
+@keyframes crawl {
+    0% {
+        transform: perspective(300px) rotateX(25deg) translateY(100%);
+    }
+    100% {
+        transform: perspective(300px) rotateX(25deg) translateY(-100%);
+    }
+
