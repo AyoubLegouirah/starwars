@@ -4,8 +4,10 @@ body{
     color: aqua;
     font-size: 60px;
     overflow: hidden;
+    animation: ;
     animation: crawl 10s linear infinite;
     transform: perspective(300px) rotateX(25deg)
+    
 }
 
 .becode{
